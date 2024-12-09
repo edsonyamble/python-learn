@@ -1,0 +1,18 @@
+типы переменных
+python динамические типтзация она определяет тип переменной в момент ее создания
+int = число (неизменяемый объект)
+str =  строка (неизменяемый объект)
+float = число с плавающей точкой
+complex = комплексное число 3i,9+2i
+bool = логический trur false
+list = список [1,2,3]
+tuple = кортеж (1,2,3)
+bytes = байты N'ss\nt
+bytearray = байтовый массив bytearray(...)
+set = множество set([1,2,3])
+frozenset = неизменяемое множество frozenset([1,2,3])
+dict = словарь {'world','hello'}
+
+variable en python existe pas mais on peut le faire avecx des objets
+sit x = 10 et y = 10   . 10 est l objet mais x et y sonys des liens pour obtenir l objet
+type function permet de savoir le type de variable
