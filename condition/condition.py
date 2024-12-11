@@ -1,7 +1,7 @@
-x = int(input("Введенное число: "))
-if x > 0:
-    print("x больше нуля")
-elif x == 0:
-    print("x равно нулю")
+first_number = int(input("первое число: "))
+second_number = int(input("второе число: "))
+third_number = first_number % second_number
+if third_number == 0:
+    print("кратно")
 else:
-    print("x меньше нуля")
+    print("не кратно")
